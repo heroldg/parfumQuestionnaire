@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleclassement.css">
+
+</head>
+<body>
+    
+    <div class="container d-flex justify-content-center align-items-center my-5">
+        <div id="quiz" class="d-flex justify-content-center align-items-center flex-column">
+            <img  id="img-check" alt="suggestion de gout">
+            <h1 id="title">Quiz</h1>
+            <div id="choices">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" value="0" id="choice-1">
+                    <label class="form-check-label" id="label-choice-1" for="choice-1"></label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" value="1" id="choice-2">
+                    <label class="form-check-label" id="label-choice-2" for="choice-2"></label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="choice" value="2" id="choice-3">
+                    <label class="form-check-label" id="label-choice-3" for="choice-3"></label>
+                </div>
+            </div>
+            <button id="submit-response" class="mt-2">Valider (0s)</button>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
