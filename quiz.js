@@ -184,6 +184,7 @@ function nextQuestion() {
         label1.textContent = question.choices[0];
         label2.textContent = question.choices[1];
         label3.textContent = question.choices[2];
+        label3.textContent = question.choices[3];
         // imgCheck.textContent = question.image;
 
     } else {
